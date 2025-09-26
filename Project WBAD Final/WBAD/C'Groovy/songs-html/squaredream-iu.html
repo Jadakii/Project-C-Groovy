@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square Dream - IU</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/song-detail.css">
+
+    <script src="/js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-left">
+            <div class="logo">C'Groovy</div>
+            <div class="nav-links">
+                <a href="/html/home.html">Home</a>
+                <a href="/html/aboutUs.html">About Us</a>
+                <a href="/html/songs.html">Songs</a>
+            </div>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Search" />
+        </div>
+        <div class="dropDown" onclick="toggleDropdown()">☰</div>
+        <a class="register-button" href="/html/register.html">Register</a>
+    </div>
+
+    <div class="dropdown-menu">
+        <div class="nav-links">
+            <a href="/html/home.html">Home</a>
+            <a href="/html/aboutUs.html">About Us</a>
+            <a href="/html/songs.html">Songs</a>
+        </div>
+        <a class="register-button" href="/html/register.html">Register</a>
+    </div>
+     <div class="container">
+        <div class="song-details-container">
+            <div class="song-title" id="song-name">Square Dream</div>
+            <div class="artist-name" id="artist-name">IU</div>
+            <div class="description" id="song-description">
+                In "Square's Dream," IU explores the contrast between the structured, square-shaped elements of daily life and the ideal of living with a "rounded heart." The song reflects on how our environments are filled with rigid, angular objects, prompting introspection about conformity and individuality. IU's gentle vocals and the song's mellow arrangement offer a contemplative and soothing listening experience
+            </div>
+            <h2>Lyrics</h2>
+            <div class="lyrics" id="song-lyrics" aria-label="Lyrics of the song">
+                이 곡은 사각형 모양의 침대, 
+                창문, 
+                책가방, 
+                버스 등으로 시작하여, 
+                일상 속에서 마주하는 모든 것이 사각형임을 반복적으로 언급합니다. 
+                그러면서도 어른들은 "세상은 둥글게 살아야 해"라고 말하며, 
+                지구본은 둥글지만 주변의 모든 것은 왜 사각형인지에 대한 의문을 제기합니다. 
+                마지막에는 이러한 현실이 '네모의 꿈'일지도 모른다고 표현하며,
+                 우리의 삶이 규격화된 틀 속에 갇혀 있다는 메시지를 전달합니다.
+            </div>
+            <h2>Listen</h2>
+            <button class="play-button" onclick="playPreview('/songs/squaredream-iu.mp3')">Play Preview</button>
+        </div>
+    </div>
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>

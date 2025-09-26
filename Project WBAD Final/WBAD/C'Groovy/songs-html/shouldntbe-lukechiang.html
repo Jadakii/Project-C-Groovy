@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shouldn't - Be - Luke Chiang</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/song-detail.css">
+
+    <script src="/js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-left">
+            <div class="logo">C'Groovy</div>
+            <div class="nav-links">
+                <a href="/html/home.html">Home</a>
+                <a href="/html/aboutUs.html">About Us</a>
+                <a href="/html/songs.html">Songs</a>
+            </div>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Search" />
+        </div>
+        <div class="dropDown" onclick="toggleDropdown()">☰</div>
+        <a class="register-button" href="/html/register.html">Register</a>
+    </div>
+
+    <div class="dropdown-menu">
+        <div class="nav-links">
+            <a href="/html/home.html">Home</a>
+            <a href="/html/aboutUs.html">About Us</a>
+            <a href="/html/songs.html">Songs</a>
+        </div>
+        <a class="register-button" href="/html/register.html">Register</a>
+    </div>
+     <div class="container">
+        <div class="song-details-container">
+            <div class="song-title" id="song-name">Shouldn't - Be</div>
+            <div class="artist-name" id="artist-name">Luke Chiang</div>
+            <div class="description" id="song-description">
+                The song "Shouldn't Be" is by Luke Chiang, an R&B/soul artist from the United States. He is known for his emotive vocals and thoughtful production. The song "Shouldn't Be" gained significant popularity on TikTok, with over 140,000 videos using it. It was written after a breakup and explores themes of love and loss.  
+            </div>
+            <h2>Lyrics</h2>
+            <div class="lyrics" id="song-lyrics" aria-label="Lyrics of the song">
+                I can't stop feelin' like none of this matters at
+
+                Fool around, tell me words that you don't mean
+                I'm already numb to it
+                I'm already numb to it
+                Feed me lies, tear me up, break me down
+                I don't wanna be playin' these games
+
+                I'm already used to it
+                I'm already used to you bein' this cold
+
+                But keepin' you close shouldn't be hard
+                If you were honest when you said you missed me
+                You've played with my pride
+                Makin' me feel like we had somethin' real
+
+                I know we've been over this, it's nothin' new
+                You're still gonna be leavin' me here
+                It's easier hatin' you than missin' you
+                But I don't wanna be feelin' this way
+
+                I'm already through with it
+                I'm already tired of thinkin' at all
+
+                'Cause keepin' you close shouldn't be hard
+                If you were honest when you said you missed me
+                You've played with my pride
+                Makin' me feel like we had somethin' real
+                And makin' you stay shouldn't feel wrong
+                This is the last time I'll ask you to listen
+                I've played all my cards
+                Would you feel a thing if you saw me right now?
+            
+                No matter what I say to you
+                You're gone (I've been tryin' in vain to hold on)
+                No matter what I say
+
+                Keepin' you close shouldn't be hard
+                If you were honest when you said you've missed me
+                You've played with my pride
+                Makin' me feel like we had somethin' real
+                And makin' you stay shouldn't feel wrong
+                This is the last time I'll ask you to listen
+                I've played all my cards
+                Would you feel a thing if you saw me right now?
+            </div>
+            <h2>Listen</h2>
+            <button class="play-button" onclick="playPreview('/songs/shouldntbe-luke-preview.mp3')">Play Preview</button>
+        </div>
+    </div>
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>

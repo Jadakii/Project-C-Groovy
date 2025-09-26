@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Never Ending Story - IU</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/song-detail.css">
+
+    <script src="/js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-left">
+            <div class="logo">C'Groovy</div>
+            <div class="nav-links">
+                <a href="/html/home.html">Home</a>
+                <a href="/html/aboutUs.html">About Us</a>
+                <a href="/html/songs.html">Songs</a>
+            </div>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Search" />
+        </div>
+        <div class="dropDown" onclick="toggleDropdown()">☰</div>
+        <a class="register-button" href="/html/register.html">Register</a>
+    </div>
+
+    <div class="dropdown-menu">
+        <div class="nav-links">
+            <a href="/html/home.html">Home</a>
+            <a href="/html/aboutUs.html">About Us</a>
+            <a href="/html/songs.html">Songs</a>
+        </div>
+        <a class="register-button" href="/html/register.html">Register</a>
+    </div>
+     <div class="container">
+        <div class="song-details-container">
+            <div class="song-title" id="song-name">Never Ending Story</div>
+            <div class="artist-name" id="artist-name">IU</div>
+            <div class="description" id="song-description">
+                "Never Ending Story" is a classic Korean rock ballad by Boohwal, known for its powerful melody and heartfelt lyrics about eternal love and longing. IU’s emotional cover brought new life to the song, touching a new generation with its timeless message.
+            </div>
+            <h2>Lyrics</h2>
+            <div class="lyrics" id="song-lyrics" aria-label="Lyrics of the song">
+                저녁 노을이 물들 때
+                조용히 넘긴 페이지 같아
+                시간이 말을 건넨다면
+                이별도 사랑이었다고 해
+
+                너의 그림자 멀어져도
+                나는 여전히 그 자리에
+                말하지 못한 마음들이
+                바람 속에 남아 있나 봐
+
+                끝나지 않을 이야기
+                별들 속에 숨겨진 우리
+                혼자 걷는 길이라도
+                나는 너를 잊지 않아
+                다른 길에 서 있어도
+                가슴 깊이 널 안고서
+                안녕 없는 그 노래로
+                하늘 위에 널 불러봐
+
+                시간은 흘러가지만
+                내 맘은 아직 그날에
+                네 목소린 바람 타고
+                비처럼 나에게 스며와
+
+                사랑은 꿈이었을까
+                그래도 날 살아있게 해
+                사라지는 그 꿈조차
+                아름다웠던 기억이 돼
+
+                끝나지 않을 이야기
+                희미하게 빛나는 우리
+                막이 내려도 괜찮아
+                너의 흔적은 내 안에
+                숨결 따라 번지는 널
+                조용히 품고 살아가
+                멀어져도 사라지지 않아
+                너는 나의 별이니까
+            </div>
+            <h2>Listen</h2>
+            <button class="play-button" onclick="playPreview('/songs/neverending-iu-preview.mp3')">Play Preview</button>
+        </div>
+    </div>
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>

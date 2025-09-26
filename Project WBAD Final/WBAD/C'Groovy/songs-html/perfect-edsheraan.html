@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect - Ed Sheeran</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/song-detail.css">
+
+    <script src="/js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-left">
+            <div class="logo">C'Groovy</div>
+            <div class="nav-links">
+                <a href="/html/home.html">Home</a>
+                <a href="/html/aboutUs.html">About Us</a>
+                <a href="/html/songs.html">Songs</a>
+            </div>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Search" />
+        </div>
+        <div class="dropDown" onclick="toggleDropdown()">☰</div>
+        <a class="register-button" href="/html/register.html">Register</a>
+    </div>
+
+    <div class="dropdown-menu">
+        <div class="nav-links">
+            <a href="/html/home.html">Home</a>
+            <a href="/html/aboutUs.html">About Us</a>
+            <a href="/html/songs.html">Songs</a>
+        </div>
+        <a class="register-button" href="/html/register.html">Register</a>
+    </div>
+     <div class="container">
+        <div class="song-details-container">
+            <div class="song-title" id="song-name">Perfect</div>
+            <div class="artist-name" id="artist-name">Ed Sheeran</div>
+            <div class="description" id="song-description">
+                "Perfect" by Ed Sheeran is a romantic ballad dedicated to his now-wife, Cherry Seaborn, expressing his love for her. It's a story of a long-standing connection, starting from childhood, blossoming into something profound and lasting. 
+            </div>
+            <h2>Lyrics</h2>
+            <div class="lyrics" id="song-lyrics" aria-label="Lyrics of the song">
+                I found a love for me
+                Oh, darling, just dive right in and follow my lead
+                Well, I found a girl, beautiful and sweet
+                Oh, I never knew you were the someone waitin' for me
+
+                'Cause we were just kids when we fell in love, not knowin' what it was
+                I will not give you up this time
+                Oh, darling, just kiss me slow, your heart is all I own
+                And in your eyes, you're holding mine
+
+                Baby, I'm dancin' in the dark with you between my arms
+                Barefoot on the grass while listenin' to our favourite song
+                When you said you looked a mess, I whispered underneath my breath
+                But you heard it, "Darling, you look perfect tonight"
+
+                Well, I found a woman, stronger than anyone I know
+                She shares my dreams, I hope that someday, I'll share her home
+                I found a love to carry more than just my secrets
+                To carry love, to carry children of our own
+
+                We are still kids, but we're so in love, fightin' against all odds
+                I know we'll be alright this time
+                Darling, just hold my hand, be my girl, I'll be your man
+                I see my future in your eyes
+
+                Oh, baby, I'm dancin' in the dark with you between my arms
+                Barefoot on the grass while listenin' to our favourite song
+                When I saw you in that dress, lookin' so beautiful
+                I don't deserve this, darling, you look perfect tonight
+
+                No, no, no
+                Mm, oh
+
+                Baby, I'm dancin' in the dark with you between my arms
+                Barefoot on the grass, oh, listenin' to our favourite song
+                I have faith in what I see, now I know I have met
+                An angel in person, and she looks perfect
+
+                Though I don't deserve this, you look perfect tonight
+            </div>
+            <h2>Listen</h2>
+            <button class="play-button" onclick="playPreview('/songs/perfect-ed-preview.mp3')">Play Preview</button>
+        </div>
+    </div>
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>

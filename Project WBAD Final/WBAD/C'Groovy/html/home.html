@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C'Groovy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/homestyle.css">
+    <script src="/js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-left">
+            <div class="logo">C'Groovy</div>
+            <div class="nav-links">
+                <a href="/html/home.html">Home</a>
+                <a href="/html/aboutUs.html">About Us</a>
+                <a href="/html/songs.html">Songs</a>
+            </div>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Search" />
+        </div>
+        <div class="dropDown" onclick="toggleDropdown()">☰</div>
+        <a class="register-button" href="/html/register.html">Register</a>
+    </div>
+
+    <div class="dropdown-menu">
+        <div class="nav-links">
+            <a href="/html/home.html">Home</a>
+            <a href="/html/aboutUs.html">About Us</a>
+            <a href="/html/songs.html">Songs</a>
+        </div>
+        <a class="register-button" href="/html/register.html">Register</a>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div class="home-hero">
+                <h1>Welcome to C'Groovy</h1>
+                <p>Your rhythm, your groove – explore our top hits now!</p>
+            </div>
+
+            <div class="uvp">
+                <h2>Why Choose C'Groovy?</h2>
+                <p>Discover your rhythm with C'Groovy — where fresh beats meet timeless grooves. Streamlined playlists, exclusive tracks, and a community that vibes with your sound.</p>
+            </div>
+
+            <div class="content-flex-row">
+                <div class="best-sellers">
+                    <h2>Best Seller Songs</h2>
+                    <div class="best-seller-carousel-wrapper">
+                        <div class="best-seller-carousel">
+                            <div class="song-item">
+                                <img src="/image/niki.jpg" alt="Before - NIKI" class="song-image" />
+                                <div class="song-details">Before - NIKI</div>
+                            </div>
+                            <div class="song-item">
+                                <img src="/image/lukechiang.jpg" alt="Shouldn't Be - Luke Chiang" class="song-image" />
+                                <div class="song-details">Shouldn't Be - Luke Chiang</div>
+                            </div>
+                            <div class="song-item">
+                                <img src="/image/lukechiang.jpg" alt="Never Tell - Luke Chiang" class="song-image" />
+                                <div class="song-details">Never Tell - Luke Chiang</div>
+                            </div>
+                            <div class="song-item">
+                                <img src="/image/lukechiang.jpg" alt="Paragraph - Luke Chiang" class="song-image" />
+                                <div class="song-details">Paragraph - Luke Chiang</div>
+                            </div>
+                        </div>
+                       <div class="carousel-arrow left" onclick="prevBestSeller()">&laquo;</div>
+                       <div class="carousel-arrow right" onclick="nextBestSeller()">&raquo;</div>
+                      </div>
+                </div>
+
+                <div class="recommended">
+                    <h3>Recommended Songs</h3>
+                    <div class="song-slider">
+                        <div class="slide active">
+                            <img src="/image/niki.jpg" alt="NIKI" class="song-image" />
+                            <div class="song-title">Before - NIKI</div>
+                        </div>
+                        <div class="slide">
+                            <img src="/image/lukechiang.jpg" alt="Luke Chiang" class="song-image" />
+                            <div class="song-title">Shouldn't Be - Luke Chiang</div>
+                        </div>
+                        <div class="slide">
+                            <img src="/image/lukechiang.jpg" alt="Luke Chiang" class="song-image" />
+                            <div class="song-title">Never Tell - Luke Chiang</div>
+                        </div>
+                        <div class="slide">
+                            <img src="/image/lukechiang.jpg" alt="Luke Chiang" class="song-image" />
+                            <div class="song-title">Paragraph - Luke Chiang</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

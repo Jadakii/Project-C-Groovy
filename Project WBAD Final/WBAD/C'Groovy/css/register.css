@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body {
+    background-color: #111111;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff6600;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+.form-items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+h1 {
+    color: #111;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #111;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    background-color: #222;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+input:focus {
+    outline: none;
+    background-color: #333;
+}
+
+.gender-update {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.gender-update label {
+    color: #111; 
+}
+
+.submit-button {
+    width: 100%;
+    background-color:#111;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: red; 
+}
+

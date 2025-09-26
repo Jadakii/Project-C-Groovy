@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/register.css">
+    <script src="/js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="form-container">
+    <h1>C'Groovy</h1>
+    <form id="registrationForm" action="/html/home.html" method="get">
+        <div class="form-items">
+                <h2>Username</h2>
+                <input type="text" id="username" placeholder="Input Username" required minlength="3"> 
+            </div>
+            <div class="form-items">
+                <h2>Email</h2>
+                <input type="email" id="email" placeholder="Input Email" required>
+            </div>
+            <div class="form-items">
+                <h2>Password</h2>
+                <input type="password" id="password" placeholder="Input Password" required minlength="6">
+            </div>
+            <div class="form-items">
+                <h2>Age</h2>
+                <input type="number" id="age" placeholder="Input Age" required min="1" max="120">
+            </div>
+            <div class="form-items">
+                <div class="gender-update">
+                    <label for="gender">Gender</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Man</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Woman</label>
+                </div>
+        <button class="submit-button" type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>
